@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Testseite</title>
+  <link rel="icon" type="image/x-icon" href="mulavifavicon.ico">
   <style>
     body {
       font-family: 'ab', Arial, sans-serif; /* Verwende 'ab' als Schriftart */
@@ -50,6 +51,7 @@
       position: relative;
       width: 200px; /* Breite jedes Bildes */
       margin: 0 10px 40px; /* 40px unten, 20px links und rechts */
+      max-width: 40%;
     }
 
     .image-box img {
@@ -60,35 +62,35 @@
 
     @font-face {
       font-family: 'ab';
-      src: url('ab.ttf') format('truetype'); /* Pfade zur Schriftart */
+      src: url('fonts/ab.ttf') format('truetype'); /* Pfade zur Schriftart */
     }
   </style>
 </head>
 <body>
   <header>
-    <img id="logo" src="mulavilogo.jpg" alt="Mulavi Logo">
+    <img id="logo" src="images/mulavilogo.jpg" alt="Mulavi Logo">
     <span class="heading-text">KONTAKTSEITE</span>
-    <img id="loginjpg" src="login.jpg" alt="Login" onclick="window.location.href = 'login.html';">
+    <img id="loginjpg" src="images/login.jpg" alt="Login" onclick="window.location.href = 'nutzer.php';">
   </header>
   <div class="image-container">
     <div class="image-box">
-      <a href="test.html">
-        <img src="1.jpg" alt="Bild 1">
+      <a href="marcel">
+        <img src="images/1.jpg" alt="Bild 1">
       </a>
     </div>
     <div class="image-box">
-      <a href="test.html">
-        <img src="2.jpg" alt="Bild 2">
+      <a !href="test.html">
+        <img src="images/platzfrei.jpg" alt="Bild 2">
       </a>
     </div>
     <div class="image-box">
-      <a href="test.html">
-        <img src="3.jpg" alt="Bild 3">
+      <a !href="test.html">
+        <img src="images/platzfrei.jpg" alt="Bild 3">
       </a>
     </div>
     <div class="image-box">
-      <a href="test.html">
-        <img src="4.jpg" alt="Bild 4">
+      <a !href="test.html">
+        <img src="images/platzfrei.jpg" alt="Bild 4">
       </a>
     </div>
   </div>
